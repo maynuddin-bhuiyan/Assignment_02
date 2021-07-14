@@ -1,0 +1,567 @@
+/* -----------------------
+  Common css or Utilize                           
+-------------------------*/
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+body{
+  font-family: 'Poppins', sans-serif;
+
+}
+
+a,li{
+    text-decoration: none;
+    list-style: none;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    padding: 0;
+    margin: 0;
+}
+
+#full_main{
+  display: grid;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+
+.container{
+  width: 1160px;
+
+}
+p{
+  color: #6C6C6C;
+}
+
+h1{
+  color: #0A0826;
+}
+h2{
+  color: #FFFFFF;
+}
+h3{
+  color: #18191F;
+}
+
+/* -----------------------
+     header part Start                          
+-------------------------*/
+#top_head {
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	top: 30px;
+	left: 120px;
+}
+
+.menu{
+  display: flex;
+  width: 100%;
+  height: 44px;
+  line-height: 44px;
+}
+
+.menu ul{
+  display: flex;
+}
+
+.menu ul li{
+  margin-right: 35px;
+ 
+
+}
+
+.button{
+	margin-left: 300px;
+  transition: .5s;
+  
+}
+
+.button a {
+	padding: 7px 35px;
+	border: 2px solid #FFFFFF;
+	border-radius: 10px;
+  
+  
+}
+
+.button:hover{
+  background: crimson;
+  width: 121px;
+  border-radius: 10px;
+  border: none;
+}
+
+
+.menu ul li a{
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 16px;
+  color: #FFFFFF;
+ 
+
+}
+
+
+
+.menu .fas {
+	font-size: 16px;
+	color: #FFFFFF;
+	margin-left: -30px;
+  line-height: 20px;
+}
+
+
+
+
+
+
+
+
+
+/* -----------------------
+     header part End                        
+-------------------------*/
+
+
+/* -----------------------
+  banner part Start                      
+-------------------------*/
+#full_banner{
+  background: #2D25A0;
+  display: flex;
+  z-index: -1;
+  height: 670px;
+}
+
+
+.banner{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+
+
+.info h2 {
+	font-family: Poppins;
+	font-weight: 700;
+	font-size: 50px;
+	color: #fff;
+	top: 140px;
+	margin-top: 192px;
+	margin-left: 114px;
+	width: 100%;
+}
+
+.button a, i{
+  color: #FFFFFF;
+}
+
+.banner .imege{
+  position: relative;
+  margin-top: 165px;
+  margin-left: 220px;
+  
+
+}
+
+.banner .imege img{
+  width: 555px;
+  height: 440px;
+  
+  
+
+
+}
+
+.shap {
+  width: 340px;
+  height: 425px;
+  background: #3DBAFD;
+  border-radius: 0px 100px 0px 0px;
+  position: absolute;
+  top: 0;
+  left: 165px;
+  z-index: 1;
+  border: 2px solid #FFFFFF;
+  box-sizing: border-box; 
+  transition: width 2s linear 1s;
+  display: none;
+  
+  
+  
+}
+
+
+.imege:hover .shap{
+  display: block;
+  opacity: 20%;
+  
+}
+
+
+
+.watch {
+	padding: 10px 30px;
+	border: 2px solid #FFFFFF;
+	width: 120px;
+	margin-left: 100px;
+	margin-top: 20px;
+  transition: .5s;
+}
+
+.watch a{
+	padding: 5px;
+	color: #fff;
+}
+
+.watch:hover {
+  background: crimson;
+  border: none;
+}
+
+
+
+/* -----------------------
+    Banner Part End                          
+-------------------------*/
+
+/* -----------------------
+    Players Part Start                          
+-------------------------*/
+.plears{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  margin-top: 70px;
+  margin-left: 50px;
+}
+
+
+.plears .man{
+  width: 320px;
+  height: 430px;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  margin-bottom: 25px;
+  
+}
+.plears .man img{
+   width: 300px;
+   height: 250px;
+   margin: 10px;
+}
+
+.plears .man h3{
+  color: #18191F;
+  font-size: 28px;
+  font-weight: 700;
+  font-family: Poppins;
+ margin: 10px;
+}
+
+.plears .man p{
+  color: #6C6C6C;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: Poppins;
+  margin: 10px;
+  
+}
+
+
+
+
+/* -----------------------
+    Players Part End                         
+-------------------------*/
+
+
+/* -----------------------
+     About Part Start                      
+-------------------------*/
+
+.about{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  align-items: center;
+  margin-top: 150px;
+}
+
+.images img{
+  width: 560px;
+  height: 420px;
+}
+
+.text h1{
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 48px;
+  color: #0A0826;
+  padding: 5px;
+}
+
+
+
+.text a{
+  color: #0A0826;
+  margin-right: 10px;
+}
+
+
+.text p{
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 16px;
+  color: #6C6C6C;
+  padding: 5px;
+  width: 400px;
+}
+
+.Watch_Now{
+  width: 150px;
+  padding: 10px 30px;
+  border: 2px solid #6C6C6C;
+  margin-top: 20px;
+  transition: .5s;
+}
+
+.Watch_Now:hover {
+  background: crimson;
+  color: #FFFFFF;
+  border: none;
+ 
+}
+
+
+
+.Watch_Now a{
+   padding: 5px;
+}
+
+
+
+.Watch_Now .fas{
+  font-size: 20px;
+  color: #6C6C6C;
+}
+
+
+/* -----------------------
+   About Part End                           
+-------------------------*/
+
+
+
+
+/* -----------------------
+   video Part Start                           
+-------------------------*/
+
+
+.video{
+  margin-top: 100px;
+  
+}
+
+iframe{
+  margin-left: 20px;
+  width: 45%;
+}
+
+
+
+/* -----------------------
+   video Part End                           
+-------------------------*/
+
+
+
+/* -----------------------
+  icon part Start                    
+-------------------------*/
+.icon{
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
+  margin-top: 100px;
+  margin-bottom: 100px;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+
+}
+
+
+
+
+.icon .image img{
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  transition: .7s;
+  
+}
+
+.image:hover img{
+   width: 150px;
+   height: 150px;
+   overflow: hidden;
+}
+
+
+
+/* -----------------------
+ icon part End                         
+-------------------------*/
+
+
+/* -----------------------
+ footer Part Start                        
+-------------------------*/
+
+
+.last{
+  margin-bottom: 50px;
+}
+
+
+.last img {
+  width: 430px;
+  text-align: center;
+  margin-left: 340px;
+}
+
+
+.icons{
+  text-align: center;
+}
+
+.last .icons .fab{
+  font-size: 20px;
+  color: #969BAB;
+  margin-left: 14px;
+  text-align: center;
+}
+
+.last p{
+   text-align: center;
+}
+
+
+/* -----------------------
+footer Part  End                         
+-------------------------*/
+
+
+/* -----------------------
+
+-------------------------*/
+@media only screen and (max-width:688px) {
+  .banner{
+      background: navy;
+      height: 670px;
+    }
+    .plears {
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      align-items: center;
+      margin-left: 450px;
+          
+      
+  }
+
+  .about {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    align-items: center;
+    margin-top: 150px;
+    
+}
+
+.video{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  
+}
+
+.icon {
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  margin-top: 100px;
+  margin-bottom: 100px;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  margin-left: 600px;
+ 
+}
+}
+
+
+
+
+/* -----------------------
+                        
+-------------------------*/
+
+
+
+
+/* -----------------------
+                        
+-------------------------*/
+@media only screen and (min-width:100px) and (max-width:200px) {
+  .banner{
+      background: navy;
+      height: 670px;
+    }
+    .plears {
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      align-items: center;
+      margin-left: 450px;
+          
+      
+  }
+
+  .about {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    align-items: center;
+    margin-top: 150px;
+    
+}
+
+.video{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  
+}
+
+.icon {
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  margin-top: 100px;
+  margin-bottom: 100px;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  margin-left: 600px;
+ 
+}
+}
+
+
+
+
+
+/* -----------------------
+                        
+-------------------------*/
+
+
+
+
+
+
