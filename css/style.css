@@ -1,6 +1,6 @@
-/* -----------------------
-  Common css or Utilize                           
--------------------------*/
+/* --------------------------------
+  Common css or Utilize  Start                          
+----------------------------------*/
 
 *{
     margin: 0;
@@ -19,10 +19,12 @@ a,li{
     list-style: none;
 }
 
+
 h1,h2,h3,h4,h5,h6,p{
     padding: 0;
     margin: 0;
 }
+
 
 #full_main{
   display: grid;
@@ -32,10 +34,18 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 
+
 .container{
   width: 1160px;
-
 }
+
+
+
+/* -----------------------
+  Full Site Color                           
+-------------------------*/
+
+
 p{
   color: #6C6C6C;
 }
@@ -50,9 +60,22 @@ h3{
   color: #18191F;
 }
 
+/* ----------------------- */
+
+
+
+/* ----------------------------
+  Common css or Utilize End                           
+-------------------------------*/
+
+
+
+
 /* -----------------------
      header part Start                          
 -------------------------*/
+
+
 #top_head {
 	display: flex;
 	justify-content: center;
@@ -61,6 +84,8 @@ h3{
 	left: 120px;
 }
 
+
+
 .menu{
   display: flex;
   width: 100%;
@@ -68,9 +93,11 @@ h3{
   line-height: 44px;
 }
 
+
 .menu ul{
   display: flex;
 }
+
 
 .menu ul li{
   margin-right: 35px;
@@ -78,11 +105,13 @@ h3{
 
 }
 
+
 .button{
 	margin-left: 300px;
   transition: .5s;
   
 }
+
 
 .button a {
 	padding: 7px 35px;
@@ -105,9 +134,8 @@ h3{
   font-weight: 400;
   font-size: 16px;
   color: #FFFFFF;
- 
 
-}
+ }
 
 
 
@@ -121,19 +149,19 @@ h3{
 
 
 
-
-
-
-
-
 /* -----------------------
      header part End                        
 -------------------------*/
 
 
+
+
+
 /* -----------------------
   banner part Start                      
 -------------------------*/
+
+
 #full_banner{
   background: #2D25A0;
   display: flex;
@@ -159,26 +187,26 @@ h3{
 	width: 100%;
 }
 
+
 .button a, i{
   color: #FFFFFF;
 }
 
+
 .banner .imege{
   position: relative;
   margin-top: 165px;
-  margin-left: 220px;
-  
+  margin-left: 220px;  
 
 }
+
 
 .banner .imege img{
   width: 555px;
-  height: 440px;
-  
-  
-
-
+  height: 440px;  
 }
+
+
 
 .shap {
   width: 340px;
@@ -192,11 +220,10 @@ h3{
   border: 2px solid #FFFFFF;
   box-sizing: border-box; 
   transition: width 2s linear 1s;
-  display: none;
-  
-  
+  display: none;  
   
 }
+
 
 
 .imege:hover .shap{
@@ -216,10 +243,15 @@ h3{
   transition: .5s;
 }
 
+
+
+
 .watch a{
 	padding: 5px;
 	color: #fff;
 }
+
+
 
 .watch:hover {
   background: crimson;
@@ -232,9 +264,14 @@ h3{
     Banner Part End                          
 -------------------------*/
 
+
+
+
 /* -----------------------
     Players Part Start                          
 -------------------------*/
+
+
 .plears{
   display: grid;
   grid-template-columns: repeat(3,1fr);
@@ -250,11 +287,15 @@ h3{
   margin-bottom: 25px;
   
 }
+
+
+
 .plears .man img{
    width: 300px;
    height: 250px;
    margin: 10px;
 }
+
 
 .plears .man h3{
   color: #18191F;
@@ -263,6 +304,7 @@ h3{
   font-family: Poppins;
  margin: 10px;
 }
+
 
 .plears .man p{
   color: #6C6C6C;
@@ -281,9 +323,14 @@ h3{
 -------------------------*/
 
 
+
+
+
+
 /* -----------------------
      About Part Start                      
 -------------------------*/
+
 
 .about{
   display: grid;
@@ -292,10 +339,12 @@ h3{
   margin-top: 150px;
 }
 
+
 .images img{
   width: 560px;
   height: 420px;
 }
+
 
 .text h1{
   font-family: Poppins;
@@ -322,6 +371,7 @@ h3{
   width: 400px;
 }
 
+
 .Watch_Now{
   width: 150px;
   padding: 10px 30px;
@@ -329,6 +379,7 @@ h3{
   margin-top: 20px;
   transition: .5s;
 }
+
 
 .Watch_Now:hover {
   background: crimson;
@@ -358,6 +409,7 @@ h3{
 
 
 
+
 /* -----------------------
    video Part Start                           
 -------------------------*/
@@ -381,9 +433,15 @@ iframe{
 
 
 
+
+
+
+
 /* -----------------------
   icon part Start                    
 -------------------------*/
+
+
 .icon{
   display: grid;
   grid-template-columns: repeat(6,1fr);
@@ -405,6 +463,7 @@ iframe{
   
 }
 
+
 .image:hover img{
    width: 150px;
    height: 150px;
@@ -416,6 +475,9 @@ iframe{
 /* -----------------------
  icon part End                         
 -------------------------*/
+
+
+
 
 
 /* -----------------------
@@ -439,12 +501,14 @@ iframe{
   text-align: center;
 }
 
+
 .last .icons .fab{
   font-size: 20px;
   color: #969BAB;
   margin-left: 14px;
   text-align: center;
 }
+
 
 .last p{
    text-align: center;
@@ -457,9 +521,22 @@ footer Part  End
 
 
 /* -----------------------
-
+     media Part
 -------------------------*/
+
+
+
+
+
+/* -----------------------
+  Mobile media Part Start
+-------------------------*/
+
+
+
 @media only screen and (max-width:688px) {
+
+
   .banner{
       background: navy;
       height: 670px;
@@ -473,18 +550,29 @@ footer Part  End
       
   }
 
+  .text{
+    margin-bottom: 50px;
+  }
+
+
   .about {
     display: grid;
     grid-template-columns: repeat(1,1fr);
     align-items: center;
     margin-top: 150px;
+    margin-left: 450px;
     
 }
 
 .video{
   display: grid;
   grid-template-columns: repeat(1,1fr);
+  margin-left: 400px;
   
+}
+
+iframe{
+  margin-bottom: 50px;
 }
 
 .icon {
@@ -503,46 +591,75 @@ footer Part  End
 
 
 /* -----------------------
-                        
+  Mobile media Part End
 -------------------------*/
+
 
 
 
 
 /* -----------------------
-                        
+  Tablet media Part Start
 -------------------------*/
-@media only screen and (min-width:100px) and (max-width:200px) {
+
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+  
+  
+  
   .banner{
       background: navy;
       height: 670px;
     }
+
+
     .plears {
       display: grid;
-      grid-template-columns: repeat(1,1fr);
+      grid-template-columns: repeat(2,1fr);
       align-items: center;
       margin-left: 450px;
           
       
   }
 
+
+  
+
   .about {
     display: grid;
     grid-template-columns: repeat(1,1fr);
     align-items: center;
     margin-top: 150px;
-    
+    margin-left: 320px;
 }
+
+
+
+.text{
+  margin-bottom: 50px;
+}
+
 
 .video{
   display: grid;
   grid-template-columns: repeat(1,1fr);
+  margin-left: 320px;
+  
   
 }
 
+
+iframe{
+  margin-bottom: 50px;
+  width: 70%;
+}
+
+
+
+
+
 .icon {
   display: grid;
-  grid-template-columns: repeat(1,1fr);
+  grid-template-columns: repeat(2,1fr);
   margin-top: 100px;
   margin-bottom: 100px;
   box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
@@ -555,13 +672,14 @@ footer Part  End
 
 
 
-
 /* -----------------------
-                        
+  Tablat media Part End
 -------------------------*/
 
 
 
 
-
+/* ---------------------------------------------------------------
+                            The End
+-----------------------------------------------------------------*/
 
